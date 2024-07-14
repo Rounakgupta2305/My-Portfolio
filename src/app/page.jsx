@@ -20,11 +20,7 @@ const Homepage = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="h-full flex flex-col pt-12 sm:pt-20 md:pt-20 lg:pt-20 justify-between lg:flex-row px-4 sm:px-10 md:px-12 lg:px-20 xl:px-48">
-        
-
-
-        {/* TEXT CONTAINER */}
+      <div className="h-full flex flex-col pt-20 sm:pt-20 md:pt-28 lg:pt-32 justify-between lg:flex-row px-4 sm:px-10 md:px-12 lg:px-20 xl:px-48">
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 justify-center">
           {/* TITLE */}
           <Image
