@@ -20,8 +20,15 @@ const Homepage = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="h-full flex flex-col pt-20 sm:pt-20 sm:pt-20 md:pt-28 lg:pt-24  justify-between lg:flex-row px-4 sm:px-10 md:px-12 lg:px-20 xl:px-48">
-        <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 justify-center">
+      <div className="h-full flex flex-col pt-20 sm:pt-20 md:pt-28 lg:pt-24 gap-10 justify-between lg:flex-row px-4 sm:px-10 md:px-12 lg:px-20 xl:px-48">
+        
+        <div className="h-0 lg:h-full lg:w-2/5 relative hidden lg:block">
+          <Image src="/him.png" alt="" fill className="object-contain" />
+        </div>
+
+
+        {/* TEXT CONTAINER */}
+        <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-4 justify-center">
           {/* TITLE */}
           <Image
               src="/hero.png"
@@ -38,9 +45,7 @@ const Homepage = () => {
           </h1>
           {/* DESC */}
           <p className="md:text-xl">
-          A passionate full-stack developer with a love for creating seamless and engaging user experiences.
-          From crafting elegant code to exploring the world of algorithms.
-          Always up for exploring and learning new things.
+          A full-stack developer with a passion for creating seamless and engaging user experiences, I excel in crafting elegant code and exploring complex algorithms. I am always eager to explore and learn new things, continually expanding my knowledge and skills. My expertise spans both front-end and back-end technologies, allowing me to deliver comprehensive solutions. I thrive in dynamic environments, where I can collaborate with others to innovate and drive projects to success.
           </p>
           {/* BUTTONS */}
           <div className="w-full ">
