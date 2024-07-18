@@ -59,6 +59,9 @@ const AboutPage = () => {
                 React.js
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Next.js
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Redux
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
@@ -79,7 +82,24 @@ const AboutPage = () => {
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Vite
               </div>
-              
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Git
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Github
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Postman
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Vercel
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Render
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Netlify
+              </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Adobe Photoshop
               </div>
@@ -94,12 +114,6 @@ const AboutPage = () => {
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Canva
-              </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Git
-              </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Github
               </div>
               
               
@@ -153,7 +167,7 @@ const AboutPage = () => {
                 {/* LEFT */}
                 <div className="w-1/3 ">
          
-                  <div className="bg-white p-3 font-semibold rounded-b-lg text-center rounded-s-lg">
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
                   Siddaganga Institute of Technology
                   </div>
              
@@ -196,7 +210,7 @@ const AboutPage = () => {
                 {/* RIGHT */}
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
-                  <div className="bg-white p-3 font-semibold rounded-b-lg text-center rounded-s-lg">
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
                     Vardhaman Higher Secondary School
                   </div>
                   {/* JOB DESC */}
@@ -219,7 +233,7 @@ const AboutPage = () => {
                 {/* LEFT */}
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
-                  <div className="bg-white p-3 font-semibold rounded-b-lg text-center rounded-s-lg">
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
                     Tara Sadan Senior Secondary School
                   </div>
                   {/* JOB DESC */}
