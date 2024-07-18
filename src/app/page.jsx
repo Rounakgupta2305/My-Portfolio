@@ -15,7 +15,7 @@ const Homepage = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="h-full flex flex-col pt-20 sm:pt-20 md:pt-28 lg:pt-24 gap-10 justify-between lg:flex-row px-4 sm:px-10 md:px-12 lg:px-20 xl:px-48">
+      <div className="h-full flex flex-col pt-20 sm:pt-20 md:pt-28 lg:pt-16 gap-10 justify-between lg:flex-row px-4 sm:px-10 md:px-12 lg:px-20 xl:px-48">
         
         <div className="h-0 lg:h-full lg:w-2/5 relative hidden lg:block">
           <Image src="/him.png" alt="" fill className="object-contain" />
@@ -43,7 +43,7 @@ const Homepage = () => {
           </p>
           {/* BUTTONS */}
           <div className="w-full">
-            <button className="p-4 flex gap-3 rounded-lg ring-1 ring-black bg-black text-white" onClick={handleResumeClick}>
+            <button className="p-2 flex gap-2 rounded-lg ring-1 ring-black bg-black text-white" onClick={handleResumeClick}>
               <Image src="/download.png" alt="" width={24} height={24} />
               Resume
             </button>
