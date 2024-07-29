@@ -11,7 +11,7 @@ const items = [
     title: "SITverse: Social Networking Platform for SIT",
     desc: "SITverse is a social media platform designed exclusively for college students and alumni. Using JWT-based authentication and authorization for secure access, it offers features like photo sharing, real-time messaging, and friend request management. The platform is built with ReactJs, NodeJs, ExpressJS, and MongoDB, and utilizes Material UI and Tailwind CSS for its user interface.",
     img: "/1.png",
-    tech: "Tech Stack: ReactJs, NodeJs, ExpressJS, MongoDB, Material UI, Tailwind CSS.",
+    tech: "Tech Stack: ReactJS, NodeJS, ExpressJS, MongoDB, Material UI, Tailwind CSS.",
     link: "https://github.com/Rounakgupta2305/SITverse-Social-Networking-Platform-for-SIT",
     live: "https://6692ee3b9ef7e2afa95fc28b--monumental-marigold-7599bb.netlify.app/"
   },
@@ -21,7 +21,7 @@ const items = [
     title: "Inventora: Inventory Management System ",
     desc: "The inventory management system enhances business operations by streamlining workflows and improving efficiency. It includes robust search capabilities, user-friendly product addition functionalities, and utilizes Clerk Auth for secure access control and data privacy.",
     img: "/7.png",
-    tech: "Tech Stack: NextJs, MongoDB, Tailwind CSS.",
+    tech: "Tech Stack: NextJS, MongoDB, Tailwind CSS.",
     link: "https://github.com/Rounakgupta2305/Inventora-Inventory-Management-System",
     live: "https://inventora-inventory-management-system.vercel.app/"
   },
@@ -31,7 +31,7 @@ const items = [
     title: "CodeCollab: Real-time collaborative coding platform",
     desc: "CodeCollab is a web app that enables real-time collaborative coding. Ideal for group projects and teaching. It offers instant editing and syntax highlighting. Secure user authentication ensure a smooth and efficient collaboration experience.",
     img: "/2.png",
-    tech: "Tech Stack: ReactJs, NodeJs, ExpressJS, Socket.io, Tailwind CSS.",
+    tech: "Tech Stack: ReactJS, NodeJS, ExpressJS, Socket.io, Tailwind CSS.",
     link: "https://github.com/Rounakgupta2305/CodeCollab-Real-time-collaborative-coding-platform.",
     live: "https://6692c7bc9c198187826b3c60--lovely-semolina-ee15e4.netlify.app/"
   },
