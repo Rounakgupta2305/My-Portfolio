@@ -84,7 +84,7 @@ const Navbar = () => {
           Github
         </Link>
         <Link className="flex gap-2 text-sm items-center" href="https://www.instagram.com/rounak___gupta/">
-          <Image src="/instagram.png" alt="" width={24} height={24}  className="object-contain"/>
+          <Image src="/instagram.png" alt="" width={32} height={32}  className="object-contain"/>
           Instagram
         </Link>
         <Link className="flex gap-2 text-sm items-center" href="https://leetcode.com/u/Rounakgupta2305/">
