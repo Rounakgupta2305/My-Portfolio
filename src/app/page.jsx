@@ -18,14 +18,13 @@ const Homepage = () => {
     >
       <div className="h-full flex flex-col pt-15 sm:pt-20 md:pt-28 lg:pt-16 gap-10 justify-between lg:flex-row px-4 sm:px-10 md:px-12 lg:px-20 xl:px-48">
         
-        {/* IMAGE CONTAINER */}
+        
         <div className="lg:h-full lg:w-2/5 relative hidden lg:block">
           <Image src="/him.png" alt="" fill className="object-contain" />
         </div>
 
-        {/* TEXT CONTAINER */}
         <div className="lg:h-full lg:w-1/2 flex flex-col gap-4 justify-center">
-          {/* TITLE */}
+
           <Image
             src="/hero.png"
             alt=""
@@ -59,7 +58,7 @@ const Homepage = () => {
             A full-stack developer with a passion for creating seamless and engaging user experiences, I excel in crafting elegant code and exploring complex algorithms. I am always eager to explore and learn new things, continually expanding my knowledge and skills. My expertise spans both front-end and back-end technologies, allowing me to deliver comprehensive solutions. I thrive in dynamic environments, where I can collaborate with others to innovate and drive projects to success.
           </p>
 
-          {/* BUTTONS */}
+   
           <div className="w-full">
             <button className="p-2 flex gap-2 rounded-lg ring-1 ring-black bg-black text-white" onClick={handleResumeClick}>
               <Image src="/download.png" alt="" width={24} height={24} />
