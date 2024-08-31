@@ -17,7 +17,7 @@ const TransitionProvider = ({ children }) => {
   let capitalizedPathName = capitalizeFirstLetter(pathName.substring(1));
 
   if(capitalizedPathName === "Portfolio"){
-    capitalizedPathName = "My Projects"
+    capitalizedPathName = "Projects"
   }
   return (
     <AnimatePresence mode="wait">
