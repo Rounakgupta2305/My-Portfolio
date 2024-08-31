@@ -341,7 +341,7 @@ const AboutPage = () => {
                   </div>
            
                   <div className="px-2 pb-2 text-red-400 text-sm font-semibold">
-                    CGPA: 8.05
+                    CGPA: 8.08
                   </div>
                 
                   <div className="px-2 pb-2 text-sm italic">
