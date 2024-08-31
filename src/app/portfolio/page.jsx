@@ -30,7 +30,7 @@ const items = [
     desc: "CodeCollab is a web app that enables real-time collaborative coding. Ideal for group projects and teaching. It offers instant editing and syntax highlighting. Secure user authentication ensure a smooth and efficient collaboration experience.",
     tech: "Tech Stack: ReactJS, NodeJS, ExpressJS, Socket.io, Tailwind CSS.",
     link: "https://github.com/Rounakgupta2305/CodeCollab-Real-time-collaborative-coding-platform.",
-    live: "https://6692c7bc9c198187826b3c60--lovely-semolina-ee15e4.netlify.app/"
+    live: "https://66d37b610a8c1071c28a561e--luxury-tartufo-edb45d.netlify.app/"
   },
   {
     id: 4,
