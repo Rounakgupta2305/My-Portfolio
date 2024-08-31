@@ -10,7 +10,6 @@ const items = [
     color: "from-red-300 to-blue-300",
     title: "SITverse: Social Networking Platform for SIT",
     desc: "SITverse is a social media platform designed exclusively for college students and alumni. Using JWT-based authentication and authorization for secure access, it offers features like photo sharing, real-time messaging, and friend request management. The platform is built with ReactJs, NodeJs, ExpressJS, and MongoDB, and utilizes Material UI and Tailwind CSS for its user interface.",
-    img: "/1.png",
     tech: "Tech Stack: ReactJS, NodeJS, ExpressJS, MongoDB, Material UI, Tailwind CSS.",
     link: "https://github.com/Rounakgupta2305/SITverse-Social-Networking-Platform-for-SIT",
     live: "https://6692ee3b9ef7e2afa95fc28b--monumental-marigold-7599bb.netlify.app/"
@@ -20,7 +19,6 @@ const items = [
     color: "from-blue-300 to-violet-300",
     title: "Inventora: Inventory Management System ",
     desc: "The inventory management system enhances business operations by streamlining workflows and improving efficiency. It includes robust search capabilities, user-friendly product addition functionalities, and utilizes Clerk Auth for secure access control and data privacy.",
-    img: "/7.png",
     tech: "Tech Stack: NextJS, MongoDB, Tailwind CSS.",
     link: "https://github.com/Rounakgupta2305/Inventora-Inventory-Management-System",
     live: "https://inventora-inventory-management-system.vercel.app/"
@@ -30,7 +28,6 @@ const items = [
     color: "from-violet-300 to-purple-300",
     title: "CodeCollab: Real-time collaborative coding platform",
     desc: "CodeCollab is a web app that enables real-time collaborative coding. Ideal for group projects and teaching. It offers instant editing and syntax highlighting. Secure user authentication ensure a smooth and efficient collaboration experience.",
-    img: "/2.png",
     tech: "Tech Stack: ReactJS, NodeJS, ExpressJS, Socket.io, Tailwind CSS.",
     link: "https://github.com/Rounakgupta2305/CodeCollab-Real-time-collaborative-coding-platform.",
     live: "https://6692c7bc9c198187826b3c60--lovely-semolina-ee15e4.netlify.app/"
@@ -41,7 +38,6 @@ const items = [
     title: "Popcornify: Movies and TV-Series Searching App",
     desc: "This project is a one-stop shop for movies and TV shows. Explore by genre (comedy, action, drama, etc.) or search for specific titles. Every result is decked out with trailers, cast info, and detailed descriptions. Utilizing TheMovieDB API, it offers users access to an extensive database for seamless search functionality.",
     tech: "Tech Stack: ReactJS, Tailwind CSS, Material UI, APIs.",
-    img: "/3.png",
     link: "https://github.com/Rounakgupta2305/Movies-and-TV-Series-Searching-App",
     live: "https://main--comfy-flan-fd13ac.netlify.app/"
 
@@ -51,7 +47,6 @@ const items = [
     color: "from-red-300 to-blue-300",
     title: "Weather App",
     desc: "Experience the joy of checking the forecast with a weather app featuring a stunningly beautiful and intuitive user interface that effortlessly combines functionality with aesthetic elegance.",
-    img: "/4.png",
     tech: "Tech Stack: ReactJS, Tailwind CSS, APIs.",
     link: "https://github.com/Rounakgupta2305/Weather-App-using-ReactJs",
     live: "https://dainty-lamington-517a45.netlify.app/"
@@ -61,7 +56,6 @@ const items = [
     color: "from-blue-300 to-purple-300",
     title: "To-Do List App",
     desc: "As I immerse myself in my to-do list project, I'm not just focused on functionality but also on a user-friendly interface. Designing an intuitive and visually appealing UI, my goal is to enhance the overall experience, making task management not only efficient but also a delight to navigate through.",
-    img: "/6.png",
     tech: "Tech Stack: ReactJS, Tailwind CSS.",
     link: "https://github.com/Rounakgupta2305/To-Do-using-ReactJs",
     live: "https://silver-rabanadas-7d599c.netlify.app/"
@@ -71,7 +65,6 @@ const items = [
     color: "from-purple-300 to-violet-300",
     title: "Underwater Object Detection",
     desc: "This project is built upon YOLOv3 software, a powerful deep learning framework renowned for its accuracy in detecting submerged objects in real-time. It features high-resolution imaging capabilities and robust performance across various underwater conditions, ensuring precise identification and classification of objects.",
-    img: "/5.png",
     link: "https://github.com/Rounakgupta2305/Underwater-Object-Detection",
   },
   
@@ -106,9 +99,6 @@ const PortfolioPage = () => {
                   <h1 className="text-2xl font-bold md:text-3xl lg:text-5xl xl:text-6xl">
                     {item.title}
                   </h1>
-                  <div className="relative w-64 h-40 md:w-80 md:h-56 lg:w-[500px] lg:h-[350px] xl:w-[600px] xl:h-[420px]">
-                    <Image src={item.img} alt="logo" layout="fill" objectFit="contain" />
-                  </div>
                   <p className="w-4/5 md:w-4/5 lg:w-3/4 xl:w-2/3 text-md md:text-lg lg:text-xl xl:text-2xl">
                     {item.desc}
                   </p>
